@@ -1,6 +1,6 @@
 {
-  "name": "crud-cli",
-  "version": "1.0.0",
+  "name": "crud-generate-cli",
+  "version": "1.0.1",
   "description": "create crud with cli",
   "main": "index.js",
   "bin": {

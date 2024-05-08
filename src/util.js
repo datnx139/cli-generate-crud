@@ -8,9 +8,9 @@ async function createCRUDPageFiles(path) {
   }
 
   // Tạo tệp Create
-  fs.writeFileSync(`.pages/${path}/index.vue`, template.list());
+  fs.writeFileSync(`./pages/${path}/index.vue`, template.list())
 
-  fs.writeFileSync(`.pages/${path}/[id].vue`, template.detail())
+  fs.writeFileSync(`./pages/${path}/[id].vue`, template.detail())
 }
 
 exports.createCRUDPageFiles =  createCRUDPageFiles
