@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "create crud with cli",
   "main": "index.js",
+  "bin": {
+    "crud-generate": "./src/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["generate crud", "node command"],
   "author": "Tomosia",
   "license": "ISC",
   "dependencies": {
