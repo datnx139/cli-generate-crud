@@ -1,4 +1,4 @@
-function list() {
+function index() {
 return `
 <template>
   <div>
@@ -22,5 +22,5 @@ function detail() {
 </script>`
 }
 
-exports.list = list
+exports.index = index
 exports.detail = detail
